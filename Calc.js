@@ -36,7 +36,7 @@ function equalTo(){
 
 	ans = eval(b);	
 
-	document.getElementById('').innerHTML = ans;		// result screen
+	document.getElementById('screen').innerHTML = ans;		// result screen
 
 	while(num.length > 0){
     	num.pop();				// emptying the array "num"
